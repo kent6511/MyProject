@@ -1,0 +1,7 @@
+# 不要追蹤檔名為 .a 結尾的檔案
+*.a
+# 但是要追蹤 lib.a，即使上面已指定忽略所有的 .a 檔案
+!lib.a
+# 忽略 build/ 目錄下所有檔案
+build/
+# 忽略 doc/notes.txt，但不包含 doc/server/arch.txt
